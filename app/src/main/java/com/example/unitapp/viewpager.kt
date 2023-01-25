@@ -27,20 +27,20 @@ class viewpager: Fragment() {
         TabLayoutMediator(tabLayout, viewpager){tab, position->
             when(position){
                 0->{
-                    tab.text = "Kg"
-                    tab.setIcon(R.drawable.ic_baseline_weight)
+                    tab.text = "weight"
+                    tab.setIcon(R.drawable.ic_baseline_fitness_center_24)
                 }
                 1->{
-                    tab.text = "°C"
-                    tab.setIcon(R.drawable.ic_baseline_temp)
+                    tab.text = "temperature"
+                    tab.setIcon(R.drawable.ic_baseline_thermostat_24)
                 }
                 2->{
-                    tab.text = "Km"
+                    tab.text = "distance"
                     tab.setIcon(R.drawable.ic_baseline_run)
                 }
                 3->{
-                    tab.text = "Dollar"
-                    tab.setIcon(R.drawable.ic_baseline_dollar)
+                    tab.text = "currency"
+                    tab.setIcon(R.drawable.ic_baseline_currency_exchange_24)
                 }
             }
         }.attach()

@@ -10,36 +10,39 @@
         android:id="@+id/imageView7"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="85dp"
         android:scaleType="matrix"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/green" />
+        android:background="@drawable/pink" />
+
     <TextView
         android:id="@+id/Currency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="168dp"
-        android:text="Currency"
         android:layout_marginBottom="280dp"
+        android:fontFamily="@font/black_han_sans"
+        android:text="Currency"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/enterdollars"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
         android:layout_marginTop="28dp"
-        android:background="#9BEF9F"
+        android:background="@drawable/borders"
         android:hint="Enter Dollars"
-        android:textSize="40sp"
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Currency" />
@@ -50,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Convert"
-        android:backgroundTint="#9BEF9F"
+        android:backgroundTint="#C59BEF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterdollars" />
@@ -69,7 +72,7 @@
         android:id="@+id/fahrenheit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Gel"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -81,9 +84,8 @@
         android:id="@+id/logoutbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#C59BEF"
         android:text="Log Out "
-        android:backgroundTint="#0099ff"
-        android:layout_marginRight="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

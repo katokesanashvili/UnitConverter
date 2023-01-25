@@ -9,19 +9,22 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="77dp"
         android:scaleType="matrix"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tumblr_7ceb196a21b0e3a6ddec249afe50a568_8af1d23f_1280" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blue2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Change Password"
+        android:fontFamily="@font/black_han_sans"
+        android:text="Upgrade Password"
+        android:gravity="center"
         android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -41,7 +44,8 @@
         android:hint="Enter E-mail"
         android:textColorHint="@color/white"
         android:gravity="center"
-        android:background="#7CBDEF"
+        android:textStyle="bold"
+        android:background="@drawable/borders"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
