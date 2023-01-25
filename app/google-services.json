@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194004064137",
+    "project_id": "unitconverterapp-c2d69",
+    "storage_bucket": "unitconverterapp-c2d69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194004064137:android:80dcee94ba91dc02653358",
+        "android_client_info": {
+          "package_name": "com.example.unitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194004064137-iugscevpsib040hr2ju4qbeiomes88vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB375IzRyxewZjL5b2U7S3TGbTv9UzkqKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194004064137-iugscevpsib040hr2ju4qbeiomes88vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
